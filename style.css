@@ -170,3 +170,68 @@ nav{
 }
 }
 
+
+.feature-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 120px;
+    padding-right: 120px;
+    padding-bottom: 140px;
+    padding-left: 120px;
+}
+
+.card{
+    border-radius: 24px;
+    width: 387px;
+    height: 272px;
+    padding: 30px;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border: solid white;
+    border-radius: 15px;
+    background-color: white;
+    padding: 14px;
+    color: #5e44ff;
+}
+
+#card-1{
+    background-color: #d7e5f6;
+}
+
+#card-2{
+    background-color: #d8e0fc;
+}
+
+#card-3{
+    background-color: #e8dcf6;
+}
+
+.card-description{
+    color: #5f5f76;
+    font-size: 16px;
+    display: flex;
+    line-height: 24px;
+}
+
+.card-title{
+    color: black;
+    font-size: 24px;
+    font-weight: 580;
+    line-height: 32px;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 15px;
+    font-family: sans-serif;
+}
